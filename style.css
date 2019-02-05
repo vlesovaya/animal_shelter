@@ -1,0 +1,93 @@
+html,
+body {
+    min-width: 1170px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1170px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #362a26;
+}
+
+.main-navigation {
+    display: block;
+}
+
+.site-navigation {
+    display: flex;
+    padding: 60px 0 0 0;
+}
+
+.main-header-logo {
+    display: block;
+    width: 200px;
+    margin: 0;
+    padding-right: 500px;
+}
+
+.main-header-logo a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo h1 {
+    display: block;
+    width: 200px;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #f1cdb3;
+    margin: 0;
+}
+
+.header-logo p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.user-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+    padding: 0 40px;
+    margin: 0;
+    list-style: none;
+}
+
+
+.user-navigation a {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-header-image {
+    background-image: url("/img/header-dog.jpg");
+    background-repeat: no-repeat;
+}
+
+.promo {
+    display: block;
+}
+
+
+.promo-text {
+    display: block;
+    margin: 250px 0 0 269px;
+}
