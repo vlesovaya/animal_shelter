@@ -14,24 +14,40 @@ body {
     margin: 0 auto;
 }
 
+/*Начало стилизации навигации*/
+
+
 .main-header {
-    background-color: #362a26;
+    box-sizing: border-box;
+    width: 100%;
+
+    min-height: 925px;
+    /*background: url("img/header-dog.jpg") no-repeat 952px bottom,*/
+    /*url("img/header-background.jpg") no-repeat center top;*/
+    background-color: #382e28;
 }
 
 .main-navigation {
-    display: block;
-}
-
-.site-navigation {
     display: flex;
-    padding: 60px 0 0 0;
+    justify-content: space-between;
+    padding-top: 60px;
 }
 
-.main-header-logo {
-    display: block;
-    width: 200px;
+.user-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+    padding: 0;
     margin: 0;
-    padding-right: 500px;
+    margin-bottom: 235px;
+    list-style: none;
+}
+
+.header-logo {
+    display: block;
+    width: 184px;
+    margin: 0;
+    padding-right: 520px;
 }
 
 .main-header-logo a {
@@ -59,27 +75,12 @@ body {
     margin: 0;
 }
 
-.user-navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 466px;
-    padding: 0 40px;
-    margin: 0;
-    list-style: none;
-}
-
-
 .user-navigation a {
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 29px;
-    color: #ffffff;
+    color: #cdcdcd;
     text-decoration: none;
-}
-
-.main-header-image {
-    background-image: url("/img/header-dog.jpg");
-    background-repeat: no-repeat;
 }
 
 .promo {
