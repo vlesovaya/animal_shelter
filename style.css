@@ -81,6 +81,12 @@ body {
     line-height: 29px;
     color: #cdcdcd;
     text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.user-navigation a:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #f1cdb3;
 }
 
 .promo {
