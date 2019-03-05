@@ -22,8 +22,8 @@ body {
     width: 100%;
 
     min-height: 925px;
-    /*background: url("img/header-dog.jpg") no-repeat 952px bottom,*/
-    /*url("img/header-background.jpg") no-repeat center top;*/
+    /*background: url("img/header-dog.jpg") no-repeat 960px bottom,*/
+    url("img/header-background.jpg") no-repeat center top;
     background-color: #382e28;
 }
 
@@ -39,7 +39,7 @@ body {
     width: 466px;
     padding: 0;
     margin: 0;
-    margin-bottom: 235px;
+    margin-bottom: 263px;
     list-style: none;
 }
 
@@ -86,15 +86,47 @@ body {
 
 .user-navigation a:hover {
     color: #ffffff;
-    border-bottom: 3px solid #f1cdb3;
+    border-bottom: 3px solid #fddcc4;
 }
 
 .promo {
     display: block;
+    padding-bottom: 269px;
 }
 
-
-.promo-text {
+.promo h2 {
     display: block;
-    margin: 250px 0 0 269px;
+    width: 370px;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 57px;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 45px;
 }
+
+.promo p {
+    display: block;
+    width: 455px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #cdcdcd;
+    margin-bottom: 30px;
+}
+
+.promo-button {
+    display: block;
+    width: 205px;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 14px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fddcc4;
+    padding: 18px 0;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
