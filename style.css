@@ -22,7 +22,7 @@ body {
     width: 100%;
 
     min-height: 925px;
-    /*background: url("img/header-dog.jpg") no-repeat 960px bottom,*/
+    background: url("img/header-pet.png") no-repeat bottom,
     url("img/header-background.jpg") no-repeat center top;
     background-color: #382e28;
 }
@@ -59,7 +59,7 @@ body {
 .header-logo h1 {
     display: block;
     width: 200px;
-    font-family: Georgia, Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 32px;
     line-height: 32px;
     font-weight: normal;
@@ -68,7 +68,7 @@ body {
 }
 
 .header-logo p {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 29px;
     color: #ffffff;
@@ -76,7 +76,7 @@ body {
 }
 
 .user-navigation a {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 29px;
     color: #cdcdcd;
@@ -97,7 +97,7 @@ body {
 .promo h2 {
     display: block;
     width: 370px;
-    font-family: Georgia, Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 44px;
     line-height: 57px;
     font-weight: normal;
@@ -108,7 +108,7 @@ body {
 .promo p {
     display: block;
     width: 455px;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 24px;
     color: #cdcdcd;
@@ -118,7 +118,7 @@ body {
 .promo-button {
     display: block;
     width: 205px;
-    font-family: Georgia, Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 17px;
     line-height: 14px;
     color: #000000;
@@ -130,3 +130,39 @@ body {
 }
 
 
+/*Начало стилизации основного блока*/
+
+
+.about-us {
+    display: flex;
+}
+
+.about-us-text {
+    display: block;
+    width: 420px;
+    margin: 121px 155px 115px 0;
+}
+
+.about-us-text h3 {
+    display: block;
+    width: 310px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #545454;
+    margin: 0 0 37px 0;
+}
+
+.about-us-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+
+.about-us-image {
+    display: block;
+    margin: 89px 120px 89px 170px;
+}
