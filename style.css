@@ -166,3 +166,66 @@ body {
     display: block;
     margin: 89px 120px 89px 170px;
 }
+
+.catalog-section {
+    display: block;
+    background-color: #f6f6f6;
+    padding: 78px 0 68px 0;
+}
+
+.catalog-title h3 {
+    display: block;
+    width: 430px;
+    text-align: center;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #545454;
+
+    margin: 78px 370px 66px 370px;
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-item {
+    display: block;
+    width: 270px;
+    height: 424px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.item-description {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #545454;
+    text-align: center;
+}
+
+.item-description p {
+    margin: 0;
+}
+
+.catalog-button {
+    display: block;
+    width: 188px;
+    height: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 2px solid #f2d3bc;
+    border-radius: 30px;
+    margin: 24px 40px 34px 40px;
+}
