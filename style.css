@@ -203,6 +203,10 @@ body {
     border-radius: 5px;
 }
 
+.catalog-item:hover {
+    box-shadow: 0 10px 15px #e1e1e1;
+}
+
 .catalog-item img {
     border-radius: 10px;
 }
