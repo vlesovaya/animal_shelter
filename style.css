@@ -20,10 +20,10 @@ body {
 .main-header {
     box-sizing: border-box;
     width: 100%;
-
     min-height: 925px;
-    background: url("img/header-pet.png") no-repeat bottom,
-    url("img/header-background.jpg") no-repeat center top;
+    background-image: url("img/header-pet.png"), url("img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 775px bottom, center top;
     background-color: #382e28;
 }
 
@@ -39,7 +39,6 @@ body {
     width: 466px;
     padding: 0;
     margin: 0;
-    margin-bottom: 263px;
     list-style: none;
 }
 
@@ -91,7 +90,8 @@ body {
 
 .promo {
     display: block;
-    padding-bottom: 269px;
+    margin-top: 240px;
+    margin-bottom: 269px;
 }
 
 .promo h2 {
@@ -102,7 +102,8 @@ body {
     line-height: 57px;
     font-weight: normal;
     color: #ffffff;
-    margin-bottom: 45px;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .promo p {
@@ -112,6 +113,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     color: #cdcdcd;
+    margin: 0;
     margin-bottom: 30px;
 }
 
@@ -228,4 +230,9 @@ body {
     border: 2px solid #f2d3bc;
     border-radius: 30px;
     margin: 24px 40px 34px 40px;
+}
+
+.catalog-button:hover,
+.catalog-button:focus {
+    background-color: #f1cdb3;
 }
