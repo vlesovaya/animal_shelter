@@ -91,7 +91,6 @@ body {
 .promo {
     display: block;
     margin-top: 240px;
-    margin-bottom: 269px;
 }
 
 .promo h2 {
@@ -125,10 +124,15 @@ body {
     line-height: 14px;
     color: #000000;
     text-decoration: none;
-    background-color: #fddcc4;
+    background-color: #f1cdb3;
     padding: 18px 0;
     text-align: center;
     border-radius: 30px;
+}
+
+.promo-button:hover,
+.promo-button:focus {
+    background-color: #fddcc4;
 }
 
 
@@ -186,7 +190,7 @@ body {
     font-weight: normal;
     color: #545454;
 
-    margin: 78px 370px 66px 370px;
+    margin: 0 370px 66px 370px;
 }
 
 .catalog-list {
@@ -289,7 +293,8 @@ body {
     margin: auto;
 }
 
-.catalog-more:hover {
+.catalog-more:hover,
+.catalog-more:focus {
     background-color: #fddcc4;
 }
 
