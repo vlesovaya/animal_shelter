@@ -201,6 +201,7 @@ body {
     height: 424px;
     background-color: #fafafa;
     border-radius: 5px;
+    margin-bottom: 66px;
 }
 
 .catalog-item:hover {
@@ -277,4 +278,28 @@ body {
 
 .right svg {
     transform: rotate(180deg)
+}
+
+.catalog-more {
+    display: block;
+    width: 267px;
+    height: 52px;
+    background-color: #f1cdb3;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.catalog-more:hover {
+    background-color: #fddcc4;
+}
+
+.catalog-more a {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 57px;
+    font-weight: normal;
+    color: #292929;
+    text-decoration: none;
+    text-align: center;
 }
