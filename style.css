@@ -192,6 +192,7 @@ body {
 .catalog-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .catalog-item {
@@ -200,6 +201,10 @@ body {
     height: 424px;
     background-color: #fafafa;
     border-radius: 5px;
+}
+
+.catalog-item img {
+    border-radius: 10px;
 }
 
 .item-description {
@@ -229,10 +234,43 @@ body {
     background-color: #ffffff;
     border: 2px solid #f2d3bc;
     border-radius: 30px;
-    margin: 24px 40px 34px 40px;
+    margin: 15px 40px 34px 40px;
 }
 
 .catalog-button:hover,
 .catalog-button:focus {
     background-color: #f1cdb3;
+    border: 2px solid #f1cdb3;
+}
+
+.items-button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #f2d3bc;
+}
+
+.items-button:hover,
+.items-button:focus {
+    background-color: #f1cdb3;
+    border: 2px solid #f1cdb3
+}
+
+.items-button:first-child {
+    margin-right: 30px;
+}
+
+.items-button:last-child {
+    margin-left: 30px;
+}
+
+.items-button svg {
+    display: block;
+    margin: 8px;
+}
+
+
+.right svg {
+    transform: rotate(180deg)
 }
