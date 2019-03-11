@@ -308,3 +308,48 @@ body {
     text-decoration: none;
     text-align: center;
 }
+
+.help-title {
+    display: block;
+    width: 330px;
+    text-align: center;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #545454;
+
+    margin: 72px 423px 72px 423px;
+}
+
+.help-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 83px;
+}
+
+.help-item {
+    display: block;
+    margin-right: 130px;
+    list-style: none;
+}
+
+.help-item:nth-child(5) {
+    margin-right: 0;
+}
+
+.help-item:nth-child(6) {
+    margin-left: 130px;
+}
+
+.help-item h4 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #545454;
+}
