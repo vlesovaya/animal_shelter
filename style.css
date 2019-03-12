@@ -63,14 +63,16 @@ body {
     line-height: 32px;
     font-weight: normal;
     color: #f1cdb3;
+    letter-spacing: 1px;
     margin: 0;
 }
 
 .header-logo p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 29px;
     color: #ffffff;
+    letter-spacing: 1.1px;
     margin: 0;
 }
 
@@ -129,6 +131,7 @@ body {
     padding: 18px 0;
     text-align: center;
     border-radius: 30px;
+    letter-spacing: 1.5px;
 }
 
 .promo-button:hover,
@@ -230,6 +233,7 @@ body {
 
 .item-description p {
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .catalog-button {
@@ -237,15 +241,16 @@ body {
     width: 188px;
     height: 50px;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 17px;
     line-height: 50px;
     font-weight: normal;
-    color: #000000;
+    color: #292929;
     text-decoration: none;
     background-color: #ffffff;
     border: 2px solid #f2d3bc;
     border-radius: 30px;
+    letter-spacing: 1px;
     margin: 15px 40px 34px 40px;
 }
 
@@ -310,6 +315,7 @@ body {
     color: #292929;
     text-decoration: none;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .help-title {
@@ -322,6 +328,7 @@ body {
     line-height: 45px;
     font-weight: normal;
     color: #545454;
+    letter-spacing: 2px;
 
     margin: 72px 423px 72px 423px;
 }
@@ -355,6 +362,7 @@ body {
     line-height: 24px;
     font-weight: normal;
     color: #545454;
+    letter-spacing: 0.5px;
 }
 
 .donation-section {
@@ -395,7 +403,7 @@ body {
     line-height: 12px;
     font-weight: normal;
     color: #545454;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     margin-top: 18px;
     margin-bottom: 13px;
 }
@@ -415,18 +423,19 @@ body {
     vertical-align: middle;
     width: 35px;
     height: 29px;
-    margin: 0 15px 0 14px;
+    margin: 0 7px 0 14px;
 }
 
 .credit-card span {
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     line-height: 45px;
     font-weight: normal;
     color: #292929;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .second-text {
