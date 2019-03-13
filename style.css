@@ -459,3 +459,8 @@ body {
     background-position: 1100px bottom, center top;
     background-color: #352822;
 }
+
+.footer-contacts {
+    display: flex;
+
+}
