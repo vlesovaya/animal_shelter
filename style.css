@@ -450,3 +450,12 @@ body {
     margin: 0;
 }
 
+/*Начало стилизации футера*/
+
+.main-footer {
+    display: block;
+    background-image: url("img/footer-pet.png"), url("img/footer-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 1100px bottom, center top;
+    background-color: #352822;
+}
