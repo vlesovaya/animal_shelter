@@ -456,11 +456,66 @@ body {
     display: block;
     background-image: url("img/footer-pet.png"), url("img/footer-background.jpg");
     background-repeat: no-repeat;
-    background-position: 1100px bottom, center top;
+    background-position: 1105px bottom, center top;
     background-color: #352822;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.main-footer .container {
+    display: flex;
 }
 
 .footer-contacts {
-    display: flex;
-
+    margin-right: 140px;
+    width: 300px;
 }
+
+.footer-contacts h3 {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.contacts-list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.contacts-item img {
+    margin-right: 22px;
+}
+
+.contacts-item a {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: normal;
+    color: #f1cdb3;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.map a {
+    line-height: 22px;
+}
+
+.map .contacts-item {
+    margin-bottom: 26px;
+}
+
