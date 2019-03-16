@@ -21,7 +21,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     min-height: 925px;
-    background-image: url("img/header-pet.png"), url("img/header-background.jpg");
+    background-image: url("../img/header-pet.png"), url("../img/header-background.jpg");
     background-repeat: no-repeat;
     background-position: 775px bottom, center top;
     background-color: #382e28;
@@ -454,7 +454,7 @@ body {
 
 .main-footer {
     display: block;
-    background-image: url("img/footer-pet.png"), url("img/footer-background.jpg");
+    background-image: url("../img/footer-pet.png"), url("../img/footer-background.jpg");
     background-repeat: no-repeat;
     background-position: 1105px bottom, center top;
     background-color: #352822;
