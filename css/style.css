@@ -561,3 +561,11 @@ body {
 .catalog h3 {
     margin-top: 68px;
 }
+
+.inner-page .catalog-item {
+    margin-bottom: 34px;
+}
+
+.catalog-list {
+    margin-bottom: 62px;
+}
