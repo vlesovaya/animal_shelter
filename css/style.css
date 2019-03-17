@@ -201,6 +201,7 @@ body {
 
 .catalog-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -519,3 +520,44 @@ body {
     margin-bottom: 26px;
 }
 
+/*Начало стилизации страницы каталога */
+
+
+.inner-page .main-header {
+    min-height: 115px;
+    background-image: none;
+    background-color: #fafafa;
+}
+
+.inner-page .main-navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-logo h1 {
+    color: #545454;
+    margin-top: 32px;
+
+}
+
+.catalog-logo p {
+    color: #292929;
+    margin-bottom: 28px;
+}
+
+.catalog-navigation {
+    margin-top: 50px;
+}
+
+.catalog-navigation a {
+    color: #545454;
+}
+
+.catalog-navigation a:hover,
+.catalog-navigation a:focus {
+    color: #545454;
+}
+
+.catalog h3 {
+    margin-top: 68px;
+}
