@@ -534,10 +534,14 @@ body {
     padding: 0;
 }
 
+.catalog {
+    background-color: #f6f6f6;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
 .catalog-logo h1 {
     color: #545454;
-    margin-top: 32px;
-
 }
 
 .catalog-logo p {
@@ -568,4 +572,47 @@ body {
 
 .catalog-list {
     margin-bottom: 62px;
+}
+
+/*Начало стилизации пагинации*/
+
+.pagination-list {
+    display: flex;
+    list-style: none;
+    margin-left: 440px;
+}
+
+.pagination-item {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid #f2d3bc;
+    margin-right: 17px;
+}
+
+.pagination-item a {
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: normal;
+    color: #292929;
+}
+
+.pagination-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.pagination-item:nth-child(4) {
+    border: none;
+    margin: 0;
+}
+
+.pagination-item .next-page {
+    color: #f1cdb3;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.5px;
 }
