@@ -47,12 +47,7 @@ body {
     width: 184px;
     margin: 0;
     padding-right: 520px;
-}
-
-.main-header-logo a {
-    display: block;
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
 }
 
 .header-logo h1 {
@@ -540,6 +535,10 @@ body {
     padding-bottom: 64px;
 }
 
+.catalog-logo {
+    margin-top: 32px;
+}
+
 .catalog-logo h1 {
     color: #545454;
 }
@@ -563,15 +562,11 @@ body {
 }
 
 .catalog h3 {
-    margin-top: 68px;
+    margin-top: 36px;
 }
 
 .inner-page .catalog-item {
     margin-bottom: 34px;
-}
-
-.catalog-list {
-    margin-bottom: 62px;
 }
 
 /*Начало стилизации пагинации*/
