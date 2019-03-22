@@ -46,7 +46,6 @@ body {
     display: block;
     width: 184px;
     margin: 0;
-    padding-right: 520px;
     text-decoration: none;
 }
 
@@ -215,7 +214,7 @@ body {
 }
 
 .catalog-item img {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .item-description {
@@ -229,6 +228,7 @@ body {
 
 .item-description p {
     margin: 0;
+    margin-top: 10px;
     letter-spacing: 1px;
 }
 
@@ -247,7 +247,7 @@ body {
     border: 2px solid #f2d3bc;
     border-radius: 30px;
     letter-spacing: 1px;
-    margin: 15px 40px 34px 40px;
+    margin: 10px 40px 34px 40px;
 }
 
 .catalog-button:hover,
@@ -536,6 +536,7 @@ body {
 }
 
 .catalog-logo {
+    width: 184px;
     margin-top: 32px;
 }
 
